@@ -2,3 +2,18 @@
 // 4 -> да
 // -3 -> нет
 // 7 -> нет
+
+Console.Write("Enter number: ");
+int number = int.Parse(Console.ReadLine());
+
+int check = number % 2;
+
+if (check == 0)
+{
+    Console.Write("Число " + number + " чётное");
+}
+else
+{
+    Console.Write("Число " + number + " НЕчётное");
+}
+
